@@ -23,10 +23,7 @@ class Game:
         self.pick = []
         self.decks = {}
         self.current_card = ()
-        self.trash = []
         self.current_index = 0
-
-        self.card_to_play = ()
 
     @staticmethod
     def no_winner() -> bool:
